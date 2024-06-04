@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz - Mirela Aldescu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<h1 class="titlu">Clasa a</h1>
+<div class="time">
+    <div class="timer">
+        Timp Rămas:  <span id="time">02:00:00</span>
+    </div>
+
+</div>
+
+<div class="quiz">
+    
+    
+    <h2 id="intrebare"></h2>
+    <div class="raspunsuri">
+        <button class="raspuns" onclick="verificaRaspuns(this)"></button>
+        <button class="raspuns" onclick="verificaRaspuns(this)"></button>
+        <button class="raspuns" onclick="verificaRaspuns(this)"></button>
+        <button class="raspuns" onclick="verificaRaspuns(this)"></button>
+    </div>
+    <button class="next" onclick="next()">Next</button>
+</div>
+
+<footer>
+    <p>Propus de Mirela Aldescu si Ramona Tudoran </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
